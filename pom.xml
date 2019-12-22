@@ -12,8 +12,6 @@
         <java.version>1.8</java.version>
         <ntlmv2-lib-version>1.0.5</ntlmv2-lib-version>
         <ehcache-version>3.8.1</ehcache-version>
-        <releasesurl>http://192.168.46.164:8081/nexus/content/repositories/releases</releasesurl>
-        <snapshoturl>http://192.168.46.164:8081/nexus/content/repositories/snapshots</snapshoturl>
     </properties>
 
     <dependencies>
@@ -66,17 +64,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Releases Repository</name>
-            <url>${releasesurl}</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <name>Nexus Snapshots Repository</name>
-            <url>${snapshoturl}</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
