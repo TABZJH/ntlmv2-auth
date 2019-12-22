@@ -8,6 +8,7 @@
     <artifactId>ntlmv2-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>NTLM v2 实现</description>
+
     <properties>
         <java.version>1.8</java.version>
         <ntlmv2-lib-version>1.0.5</ntlmv2-lib-version>
