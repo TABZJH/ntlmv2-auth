@@ -1,0 +1,22 @@
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+	
+    <defaultCache
+        maxElementsInMemory="300000"
+        eternal="false"
+        overflowToDisk="true"
+        timeToIdleSeconds="120"
+        timeToLiveSeconds="120"
+        diskPersistent="false"
+        diskExpiryThreadIntervalSeconds="120"/>
+	
+	<cache name="ntlmChallengeCache"
+	  maxElementsInMemory="200000"
+      eternal="false"
+      timeToIdleSeconds="120"
+      timeToLiveSeconds="120"
+      diskPersistent="false"
+      overflowToDisk="false">
+	</cache>
+
+</ehcache>
